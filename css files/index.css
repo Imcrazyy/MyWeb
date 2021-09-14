@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 2px solid black;
+    min-height: 100vh;
+    width: 100%;
+    /* background-image: url("frontImage.jpg"); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+nav{
+    border: 2px solid white;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+nav li{
+    background-color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color: white;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+}
