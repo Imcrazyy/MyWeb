@@ -5,5 +5,6 @@ git commit -m ""
 git status
 ssh-keygen -t rsa -b 4096 -C "email"
 git remote add origin "url"
-
+https://github.com/HetviSoni/MyWeb.git
+upstream url is from where u fork
 
